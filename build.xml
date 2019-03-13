@@ -24,6 +24,7 @@
     <ivy:cachepath conf="analysis" pathid="analysis.classpath"/>
   </target>
 
+  
   <target name="compile" depends="resolve" description="Compile all sources.">
     <mkdir dir="${dist.dir}"/>
     <mkdir dir="${build.dir}/classes"/>
